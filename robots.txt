@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://themansigoel.github.io/chanting-ios/sitemap.xml
