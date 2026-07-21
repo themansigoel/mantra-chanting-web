@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://themansigoel.github.io/mantra-chanting-web/sitemap.xml
+Sitemap: https://themansigoel.github.io/mantra-chanting-web/sitemap.txt
