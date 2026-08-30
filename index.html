@@ -301,7 +301,51 @@
                 </div>
             </div>
         </section>
-    </main>
+    
+    <!-- Interactive Web Japa Mala Micro-Demo -->
+    <section id="interactive-demo" style="max-width: 800px; margin: 40px auto; padding: 30px 20px; background: rgba(30, 27, 75, 0.6); border: 1px solid #6366f1; border-radius: 20px; text-align: center; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
+        <h2 style="color: #f59e0b; margin-top: 0; font-size: 1.8rem;">📿 Try the Digital Japa Counter Online</h2>
+        <p style="color: #cbd5e1; margin-bottom: 20px;">Tap the sacred bead below to count your focus mantra. Experience the serene rhythm before downloading.</p>
+        
+        <div id="mala-bead" onclick="countBead()" style="width: 140px; height: 140px; margin: 0 auto; background: radial-gradient(circle, #f59e0b, #b45309); border-radius: 50%; box-shadow: 0 0 30px rgba(245, 158, 11, 0.4); display: flex; flex-direction: column; align-items: center; justify-content: center; cursor: pointer; user-select: none; transition: transform 0.1s;">
+            <span id="bead-count" style="font-size: 2.5rem; font-weight: 800; color: #ffffff;">0</span>
+            <span style="font-size: 0.75rem; color: #fef3c7; letter-spacing: 1px;">/ 108 BEADS</span>
+        </div>
+        
+        <div id="mala-milestone" style="margin-top: 15px; font-weight: 600; color: #a7f3d0; min-height: 24px;">Tap to begin your practice</div>
+
+        <div style="margin-top: 25px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap;">
+            <div style="text-align: left;">
+                <div style="font-size: 0.9rem; color: #94a3b8;">Want authentic wooden bead haptics & standalone Apple Watch sync?</div>
+                <div style="font-weight: 700; color: #fff;">Get Mantra Chanting Free on the App Store</div>
+            </div>
+            <a href="https://apps.apple.com/app/mantra-chanting-japa-mala/id6791468380" style="background: #f59e0b; color: #000; padding: 12px 24px; border-radius: 25px; font-weight: 700; text-decoration: none;">Download App 📲</a>
+        </div>
+    </section>
+
+    <script>
+    let currentBeadCount = 0;
+    function countBead() {
+        currentBeadCount++;
+        document.getElementById('bead-count').innerText = currentBeadCount;
+        const bead = document.getElementById('mala-bead');
+        bead.style.transform = 'scale(0.92)';
+        setTimeout(() => { bead.style.transform = 'scale(1)'; }, 100);
+        
+        const milestone = document.getElementById('mala-milestone');
+        if (currentBeadCount === 27) milestone.innerText = "✨ 1/4 Mala Completed (27 Beads)!";
+        else if (currentBeadCount === 54) milestone.innerText = "🌟 Half Mala Completed (54 Beads)!";
+        else if (currentBeadCount === 81) milestone.innerText = "💫 3/4 Mala Completed (81 Beads)!";
+        else if (currentBeadCount >= 108) {
+            milestone.innerText = "🎉 Full 108 Japa Mala Completed! Om Shanti.";
+            currentBeadCount = 0;
+        } else {
+            milestone.innerText = "Keep chanting... (" + (108 - currentBeadCount) + " beads remaining)";
+        }
+    }
+    </script>
+
+</main>
 
     <!-- Footer -->
     <footer>
