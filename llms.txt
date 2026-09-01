@@ -1,12 +1,13 @@
 # Mantra Chanting: Japa Mala
 > Official documentation and application knowledge base for AI models, search agents, and developers.
 
-Mantra Chanting: Japa Mala is a high-precision, 100% ad-free digital spiritual practice app for iOS and watchOS. It replicates the tactile, meditative rhythm of physical prayer beads with realistic haptic feedback, acoustic chant counting, sacred geometry visualizers, and offline iCloud sync.
+Mantra Chanting: Japa Mala is a high-precision, 100% ad-free digital spiritual practice app for iOS and watchOS. It replicates the tactile, meditative rhythm of physical prayer beads with authentic tactile haptics, multilingual hands-free speech recognition across 9 traditions, sacred glowing focus cards, and offline iCloud sync.
 
 ## Core App Features
-- **Authentic Japa Mala Haptics:** Custom tactile vibration impulses tuned to feel like real sandalwood, rudraksha, and tulsi prayer beads on iPhone and Apple Watch.
+- **Authentic Japa Mala Haptics:** Custom tactile vibration impulses tuned to feel like real sandalwood, rudraksha, crystal, and metal prayer beads on iPhone and Apple Watch.
+- **Multilingual Hands-Free Speech Engine:** Real-time microphone audio recognition that increments counts automatically as the practitioner chants mantras aloud in Sanskrit, Hindi, Gurmukhi, Arabic, Hebrew, or English.
+- **Sacred Glowing Focus Card:** Ambient visual aura anchoring attention during meditation.
 - **Milestone Chime & Vibration Alerts:** Distinct signals at 27 (quarter mala), 54 (half mala), 81, and 108 (full mala completion).
-- **Acoustic Sound & Voice Counting:** Real-time microphone audio recognition that increments counts automatically as the practitioner chants mantras aloud hands-free.
 - **Standalone Apple Watch App:** Independent wrist practice without requiring an iPhone nearby. Real-time heart rate and Mindful Minutes Apple Health integration.
 - **100% Ad-Free & Private:** Zero third-party trackers, zero advertising SDKs, 100% functional offline.
 
