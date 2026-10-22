@@ -1,182 +1,168 @@
 <!DOCTYPE html>
+
 <html lang="ja">
 <head>
-    <meta name="author" content="themansigoel@gmail.com">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="apple-itunes-app" content="app-id=6791468380">
-    <title>Mantra Chanting: Japa Mala — マントラ 瞑想 お数珠 カウンター</title>
-    <meta name="description" content="Apple WatchとiPhoneのためのデジタルお数珠アプリ。触覚フィードバック、音声解析、オフライン同期で毎日の瞑想をサポート。">
-    <link rel="canonical" href="https://themansigoel.github.io/mantra-chanting-web/ja/" />
-    
-        <!-- Multi-locale Indexing Tags (GEO/SEO) -->
-    <link rel="alternate" hreflang="x-default" href="https://themansigoel.github.io/mantra-chanting-web/" />
-    <link rel="alternate" hreflang="en" href="https://themansigoel.github.io/mantra-chanting-web/" />
-    <link rel="alternate" hreflang="hi" href="https://themansigoel.github.io/mantra-chanting-web/hi/" />
-    <link rel="alternate" hreflang="es" href="https://themansigoel.github.io/mantra-chanting-web/es/" />
-    <link rel="alternate" hreflang="pt" href="https://themansigoel.github.io/mantra-chanting-web/pt/" />
-    <link rel="alternate" hreflang="ja" href="https://themansigoel.github.io/mantra-chanting-web/ja/" />
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://themansigoel.github.io/mantra-chanting-web/ja/">
-    <meta property="og:title" content="Mantra Chanting: Japa Mala — マントラ 瞑想 お数珠 カウンター">
-    <meta property="og:description" content="Apple WatchとiPhoneのためのデジタルお数珠アプリ。触覚フィードバック、音声解析、オフライン同期。">
-    <meta property="og:image" content="https://themansigoel.github.io/mantra-chanting-web/assets/app_icon.png">
-    
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://themansigoel.github.io/mantra-chanting-web/ja/">
-    <meta property="twitter:title" content="Mantra Chanting: Japa Mala — マントラ 瞑想 お数珠 カウンター">
-    <meta property="twitter:description" content="Apple WatchとiPhoneのためのデジタルお数珠アプリ。触覚フィードバック、音声解析、オフライン同期。">
-    <meta property="twitter:image" content="https://themansigoel.github.io/mantra-chanting-web/assets/app_icon.png">
-    
-    <link rel="stylesheet" href="../style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-
-    <!-- JSON-LD Structured Data for SEO / GEO / AEO (Japanese) -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "Mantra Chanting: Japa Mala",
-      "inLanguage": "ja",
-      "operatingSystem": "iOS 16 or later, watchOS compatibility varies by version",
-      "applicationCategory": "HealthApplication",
-      "offers": {
-        "@type": "Offer",
-        "price": "0.00",
-        "priceCurrency": "USD"
-      },
-      "description": "触覚フィードバックとマイク音声解析を搭載したiOS & watchOS向けデジタルお数珠アプリ。",
-      "featureList": [
-        "触覚お数珠シミュレーター: リアルな木製数珠のクリック感を再現",
-        "マイク音声自動カウント: クラップ音や音声トリガーによるハンズフリーカウント",
-        "Apple Watch単体動作: スマホ不要で腕の動きからカウントを記録",
-        "100% プライバシー重視: 追跡・広告ゼロの完全ローカル保存"
-      ],
-      "downloadUrl": "https://apps.apple.com/app/mantra-chanting-japa-mala/id6791468380"
-    }
-    </script>
-</head>
-<body>
-
-    <header class="navbar">
-        <div class="nav-container">
-            <a href="../index.html" class="logo-link">
-                <img src="../assets/app_icon.png" alt="Mantra Chanting Logo" style="width: 32px; height: 32px; border-radius: 8px; border: 1px solid var(--border-color);" />
-                <span class="nav-brand">Mantra Chanting</span>
-            </a>
-            <nav class="nav-links">
-                <a href="#features">機能</a>
-                <a href="#features">Apple Watch</a>
-                <a href="#preview-gallery">比較</a>
-                <a href="../privacy.html">プライバシー</a>
-                <a href="../contact.html">サポート</a>
-                <a href="https://apps.apple.com/app/mantra-chanting-japa-mala/id6791468380" class="btn btn-primary" target="_blank">ダウンロード</a>
-            </nav>
-        </div>
-    </header>
-
-    <main>
-        <section class="hero-section">
-            <div class="hero-bg-glow"></div>
-            <div class="container">
-                <img src="../assets/app_icon.png" alt="Mantra Chanting App Icon" style="width: 96px; height: 96px; border-radius: 20px; border: 1px solid var(--border-color); margin-bottom: 24px; box-shadow: 0 8px 24px rgba(212, 175, 55, 0.15);" />
-                <br />
-                <span class="badge">マントラ瞑想お数珠カウンター</span>
-                <h1 class="hero-title">雑念を払い、<span class="highlight">マントラを唱える。</span></h1>
-                <p class="hero-subtitle">お数珠のビーズを動かす感覚を再現した振動フィードバック、音声認識、オフライン同期を備えたプレミアムデジタルお数珠アプリ。</p>
-                <a href="https://apps.apple.com/app/mantra-chanting-japa-mala/id6791468380" class="download-badge" target="_blank">
-                    <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg" alt="App Store からダウンロード">
-                </a>
-            </div>
-        </section>
-
-        <section id="features" class="container">
-            <h2 class="section-title">主な機能</h2>
-            <p class="section-subtitle">画面を見ずに、正確に修行の回数を数えましょう。</p>
-            <div class="feature-grid">
-                <div class="feature-card">
-                    <h3>触覚フィードバック</h3>
-                    <p>Apple Watchの振動で、お数珠のビーズを指で動かす感覚を再現。修行に完全に没頭できます。</p>
-                </div>
-                <div class="feature-card">
-                    <h3>音響マイク計測</h3>
-                    <p>音声やたたく音をリアルタイムで検知し、ハンズフリーでカウントを進めます。</p>
-                </div>
-                <div class="feature-card">
-                    <h3>Apple Watch対応</h3>
-                    <p>iPhoneを持たずに単体でカウント。加速度センサーによるシェイクカウント機能も搭載。</p>
-                </div>
-            </div>
-        <!-- Media Preview Section -->
-        <section id="preview-gallery" class="container" style="border-top: 1px solid rgba(255, 255, 255, 0.05); padding-top: 80px;">
-            <h2 class="section-title">アプリプレビューとスクリーンショット</h2>
-            <p class="section-subtitle">プレミアムなインターフェース、スムーズな画面遷移、美しい幾何学的な瞑想アニメーションをご覧ください。</p>
-            
-            <!-- Video Players -->
-            <div class="video-showcase" style="display: flex; gap: 30px; justify-content: center; margin-bottom: 60px; flex-wrap: wrap;">
-                <div class="video-card" style="flex: 1; min-width: 280px; max-width: 320px; text-align: center; background: var(--surface-color); border: 1px solid var(--border-color); padding: 20px; border-radius: 20px;">
-                    <video width="100%" height="auto" controls playsinline preload="auto" muted style="border-radius: 12px; border: 2px solid var(--border-color); aspect-ratio: 886 / 1920; background: #000;" poster="../assets/screenshots/01_feel_every_chant.png">
-                        <source src="../assets/app_preview_draft.mp4" type="video/mp4">
+<meta content="themansigoel@gmail.com" name="author"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="app-id=6791468380" name="apple-itunes-app"/>
+<title>Mantra Chanting: Japa Mala — マントラ 瞑想 お数珠 カウンター</title>
+<meta content="Apple WatchとiPhoneのためのデジタルお数珠アプリ。触覚フィードバック、音声解析、オフライン同期で毎日の瞑想をサポート。" name="description"/>
+<link href="https://themansigoel.github.io/mantra-chanting-web/ja/" rel="canonical"/>
+<!-- Multi-locale Indexing Tags (GEO/SEO) -->
+<link href="https://themansigoel.github.io/mantra-chanting-web/" hreflang="x-default" rel="alternate"/>
+<link href="https://themansigoel.github.io/mantra-chanting-web/" hreflang="en" rel="alternate"/>
+<link href="https://themansigoel.github.io/mantra-chanting-web/hi/" hreflang="hi" rel="alternate"/>
+<link href="https://themansigoel.github.io/mantra-chanting-web/es/" hreflang="es" rel="alternate"/>
+<link href="https://themansigoel.github.io/mantra-chanting-web/pt/" hreflang="pt" rel="alternate"/>
+<link href="https://themansigoel.github.io/mantra-chanting-web/ja/" hreflang="ja" rel="alternate"/>
+<!-- Open Graph / Facebook -->
+<meta content="website" property="og:type"/>
+<meta content="https://themansigoel.github.io/mantra-chanting-web/ja/" property="og:url"/>
+<meta content="Mantra Chanting: Japa Mala — マントラ 瞑想 お数珠 カウンター" property="og:title"/>
+<meta content="Apple WatchとiPhoneのためのデジタルお数珠アプリ。触覚フィードバック、音声解析、オフライン同期。" property="og:description"/>
+<meta content="https://themansigoel.github.io/mantra-chanting-web/assets/app_icon.png" property="og:image"/>
+<!-- Twitter -->
+<meta content="summary_large_image" property="twitter:card"/>
+<meta content="https://themansigoel.github.io/mantra-chanting-web/ja/" property="twitter:url"/>
+<meta content="Mantra Chanting: Japa Mala — マントラ 瞑想 お数珠 カウンター" property="twitter:title"/>
+<meta content="Apple WatchとiPhoneのためのデジタルお数珠アプリ。触覚フィードバック、音声解析、オフライン同期。" property="twitter:description"/>
+<meta content="https://themansigoel.github.io/mantra-chanting-web/assets/app_icon.png" property="twitter:image"/>
+<link href="../style.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,400&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<!-- JSON-LD Structured Data for SEO / GEO / AEO (Japanese) -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Mantra Chanting: Japa Mala",
+  "inLanguage": "ja",
+  "operatingSystem": "iOS 16 or later, watchOS compatibility varies by version",
+  "applicationCategory": "HealthApplication",
+  "offers": {
+    "@type": "Offer",
+    "price": "0.00",
+    "priceCurrency": "USD"
+  },
+  "description": "触覚フィードバックとマイク音声解析を搭載したiOS & watchOS向けデジタルお数珠アプリ。",
+  "featureList": [
+    "触覚お数珠シミュレーター: リアルな木製数珠のクリック感を再現",
+    "マイク音声自動カウント: クラップ音や音声トリガーによるハンズフリーカウント",
+    "Apple Watch単体動作: スマホ不要で腕の動きからカウントを記録",
+    "100% プライバシー重視: 追跡・広告ゼロの完全ローカル保存"
+  ],
+  "downloadUrl": "https://apps.apple.com/app/mantra-chanting-japa-mala/id6791468380"
+}</script>
+<link href="../site-polish.css" rel="stylesheet"/></head>
+<body><a class="studio-skip" href="#main-content">本文へスキップ</a>
+<header class="navbar">
+<div class="nav-container">
+<a class="logo-link" href="../index.html">
+<img alt="Mantra Chanting Logo" height="1024" src="../assets/app_icon.png" style="width: 32px; height: 32px; border-radius: 8px; border: 1px solid var(--border-color);" width="1024"/>
+<span class="nav-brand">Mantra Chanting</span>
+</a>
+<details class="studio-menu" open=""><summary>メニュー</summary><nav class="nav-links">
+<a href="#features">機能</a>
+<a href="#features">Apple Watch</a>
+<a href="#preview-gallery">比較</a>
+<a href="../privacy.html">プライバシー</a>
+<a href="../contact.html">サポート</a>
+<a class="btn btn-primary" href="https://apps.apple.com/app/mantra-chanting-japa-mala/id6791468380" rel="noopener" target="_blank">ダウンロード</a>
+</nav></details>
+</div>
+</header>
+<main id="main-content">
+<section class="hero-section">
+<div class="hero-bg-glow"></div>
+<div class="container">
+<img alt="Mantra Chanting App Icon" decoding="async" height="1024" loading="eager" src="../assets/app_icon.png" style="width: 96px; height: 96px; border-radius: 20px; border: 1px solid var(--border-color); margin-bottom: 24px; box-shadow: 0 8px 24px rgba(212, 175, 55, 0.15);" width="1024"/>
+<br/>
+<span class="badge">マントラ瞑想お数珠カウンター</span>
+<h1 class="hero-title">雑念を払い、<span class="highlight">マントラを唱える。</span></h1>
+<p class="hero-subtitle">お数珠のビーズを動かす感覚を再現した振動フィードバック、音声認識、オフライン同期を備えたプレミアムデジタルお数珠アプリ。</p>
+<a class="download-badge studio-store-link" href="https://apps.apple.com/app/mantra-chanting-japa-mala/id6791468380" rel="noopener" target="_blank">View on the App Store →</a>
+</div>
+</section>
+<section class="container" id="features">
+<h2 class="section-title">主な機能</h2>
+<p class="section-subtitle">画面を見ずに、正確に修行の回数を数えましょう。</p>
+<div class="feature-grid">
+<div class="feature-card">
+<h3>触覚フィードバック</h3>
+<p>Apple Watchの振動で、お数珠のビーズを指で動かす感覚を再現。修行に完全に没頭できます。</p>
+</div>
+<div class="feature-card">
+<h3>音響マイク計測</h3>
+<p>音声やたたく音をリアルタイムで検知し、ハンズフリーでカウントを進めます。</p>
+</div>
+<div class="feature-card">
+<h3>Apple Watch対応</h3>
+<p>iPhoneを持たずに単体でカウント。加速度センサーによるシェイクカウント機能も搭載。</p>
+</div>
+</div>
+<!-- Media Preview Section -->
+<section class="container" id="preview-gallery" style="border-top: 1px solid rgba(255, 255, 255, 0.05); padding-top: 80px;">
+<h2 class="section-title">アプリプレビューとスクリーンショット</h2>
+<p class="section-subtitle">プレミアムなインターフェース、スムーズな画面遷移、美しい幾何学的な瞑想アニメーションをご覧ください。</p>
+<!-- Video Players -->
+<div class="video-showcase" style="display: flex; gap: 30px; justify-content: center; margin-bottom: 60px; flex-wrap: wrap;">
+<div class="video-card" style="flex: 1; min-width: 280px; max-width: 320px; text-align: center; background: var(--surface-color); border: 1px solid var(--border-color); padding: 20px; border-radius: 20px;">
+<video controls="" height="auto" muted="" playsinline="" poster="../assets/screenshots/01_feel_every_chant.png" preload="auto" style="border-radius: 12px; border: 2px solid var(--border-color); aspect-ratio: 886 / 1920; background: #000;" width="100%">
+<source src="../assets/app_preview_draft.mp4" type="video/mp4"/>
                         Your browser does not support the video tag.
                     </video>
-                    <h4 style="margin-top: 12px; font-size: 1.1rem; color: var(--zen-gold-solid);">メインアプリツアー</h4>
-                    <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 6px;">カウント画面、マントラ設定、統計ログの全体をご紹介。</p>
-                </div>
-                <div class="video-card" style="flex: 1; min-width: 280px; max-width: 320px; text-align: center; background: var(--surface-color); border: 1px solid var(--border-color); padding: 20px; border-radius: 20px;">
-                    <video width="100%" height="auto" controls playsinline preload="auto" muted style="border-radius: 12px; border: 2px solid var(--border-color); aspect-ratio: 886 / 1920; background: #000;" poster="../assets/screenshots/03_sacred_geometry_art.png">
-                        <source src="../assets/app_preview_animation.mp4" type="video/mp4">
+<h4 style="margin-top: 12px; font-size: 1.1rem; color: var(--zen-gold-solid);">メインアプリツアー</h4>
+<p style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 6px;">カウント画面、マントラ設定、統計ログの全体をご紹介。</p>
+</div>
+<div class="video-card" style="flex: 1; min-width: 280px; max-width: 320px; text-align: center; background: var(--surface-color); border: 1px solid var(--border-color); padding: 20px; border-radius: 20px;">
+<video controls="" height="auto" muted="" playsinline="" poster="../assets/screenshots/03_sacred_geometry_art.png" preload="auto" style="border-radius: 12px; border: 2px solid var(--border-color); aspect-ratio: 886 / 1920; background: #000;" width="100%">
+<source src="../assets/app_preview_animation.mp4" type="video/mp4"/>
                         Your browser does not support the video tag.
                     </video>
-                    <h4 style="margin-top: 12px; font-size: 1.1rem; color: var(--zen-gold-solid);">神聖幾何学ビジュアライザ</h4>
-                    <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 6px;">黄金の幾何学パターンが綺麗に広がる瞑想アニメーション。</p>
-                </div>
-            </div>
-
-            <!-- Screenshots Scroll -->
-            <div class="screenshot-gallery-wrapper" style="overflow-x: auto; padding-bottom: 20px; margin-top: 40px; scrollbar-width: thin; scrollbar-color: var(--border-color) transparent;">
-                <div class="screenshot-track" style="display: flex; gap: 20px; width: max-content; padding: 0 10px;">
-                    <div class="screenshot-item" style="width: 260px;">
-                        <img src="../assets/screenshots/01_feel_every_chant.png" alt="お数珠カウンター画面" style="width: 100%; border-radius: 16px; border: 1px solid var(--border-color);" />
-                    </div>
-                    <div class="screenshot-item" style="width: 260px;">
-                        <img src="../assets/screenshots/02_watch_companion.png" alt="Apple Watchお数珠画面" style="width: 100%; border-radius: 16px; border: 1px solid var(--border-color);" />
-                    </div>
-                    <div class="screenshot-item" style="width: 260px;">
-                        <img src="../assets/screenshots/03_sacred_geometry_art.png" alt="神聖幾何学アート画面" style="width: 100%; border-radius: 16px; border: 1px solid var(--border-color);" />
-                    </div>
-                    <div class="screenshot-item" style="width: 260px;">
-                        <img src="../assets/screenshots/04_custom_mantras.png" alt="カスタムマントラ画面" style="width: 100%; border-radius: 16px; border: 1px solid var(--border-color);" />
-                    </div>
-                    <div class="screenshot-item" style="width: 260px;">
-                        <img src="../assets/screenshots/05_daily_progress_logs.png" alt="修行履歴画面" style="width: 100%; border-radius: 16px; border: 1px solid var(--border-color);" />
-                    </div>
-                    <div class="screenshot-item" style="width: 260px;">
-                        <img src="../assets/screenshots/06_sound_vocal_counting.png" alt="音声認識カウント画面" style="width: 100%; border-radius: 16px; border: 1px solid var(--border-color);" />
-                    </div>
-                    <div class="screenshot-item" style="width: 260px;">
-                        <img src="../assets/screenshots/07_offline_privacy.png" alt="プライバシー保護画面" style="width: 100%; border-radius: 16px; border: 1px solid var(--border-color);" />
-                    </div>
-                    <div class="screenshot-item" style="width: 260px;">
-                        <img src="../assets/screenshots/08_progress_insights.png" alt="進捗データ解析画面" style="width: 100%; border-radius: 16px; border: 1px solid var(--border-color);" />
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 Mansi Agarwal. All rights reserved.</p>
-            <div class="footer-links">
-                <a href="../privacy.html">プライバシーポリシー</a>
-                <a href="../contact.html">サポート</a>
-            </div>
-        </div>
-    </footer>
-
-</body>
+<h4 style="margin-top: 12px; font-size: 1.1rem; color: var(--zen-gold-solid);">神聖幾何学ビジュアライザ</h4>
+<p style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 6px;">黄金の幾何学パターンが綺麗に広がる瞑想アニメーション。</p>
+</div>
+</div>
+<!-- Screenshots Scroll -->
+<div class="screenshot-gallery-wrapper" style="overflow-x: auto; padding-bottom: 20px; margin-top: 40px; scrollbar-width: thin; scrollbar-color: var(--border-color) transparent;">
+<div class="screenshot-track" style="display: flex; gap: 20px; width: max-content; padding: 0 10px;">
+<div class="screenshot-item" style="width: 260px;">
+<img alt="お数珠カウンター画面" decoding="async" height="2778" loading="lazy" src="../assets/screenshots/01_feel_every_chant.png" style="width: 100%; border-radius: 16px; border: 1px solid var(--border-color);" width="1284"/>
+</div>
+<div class="screenshot-item" style="width: 260px;">
+<img alt="Apple Watchお数珠画面" decoding="async" height="2778" loading="lazy" src="../assets/screenshots/02_watch_companion.png" style="width: 100%; border-radius: 16px; border: 1px solid var(--border-color);" width="1284"/>
+</div>
+<div class="screenshot-item" style="width: 260px;">
+<img alt="神聖幾何学アート画面" decoding="async" height="2778" loading="lazy" src="../assets/screenshots/03_sacred_geometry_art.png" style="width: 100%; border-radius: 16px; border: 1px solid var(--border-color);" width="1284"/>
+</div>
+<div class="screenshot-item" style="width: 260px;">
+<img alt="カスタムマントラ画面" decoding="async" height="2778" loading="lazy" src="../assets/screenshots/04_custom_mantras.png" style="width: 100%; border-radius: 16px; border: 1px solid var(--border-color);" width="1284"/>
+</div>
+<div class="screenshot-item" style="width: 260px;">
+<img alt="修行履歴画面" decoding="async" height="2778" loading="lazy" src="../assets/screenshots/05_daily_progress_logs.png" style="width: 100%; border-radius: 16px; border: 1px solid var(--border-color);" width="1284"/>
+</div>
+<div class="screenshot-item" style="width: 260px;">
+<img alt="音声認識カウント画面" decoding="async" height="2778" loading="lazy" src="../assets/screenshots/06_sound_vocal_counting.png" style="width: 100%; border-radius: 16px; border: 1px solid var(--border-color);" width="1284"/>
+</div>
+<div class="screenshot-item" style="width: 260px;">
+<img alt="プライバシー保護画面" decoding="async" height="2778" loading="lazy" src="../assets/screenshots/07_offline_privacy.png" style="width: 100%; border-radius: 16px; border: 1px solid var(--border-color);" width="1284"/>
+</div>
+<div class="screenshot-item" style="width: 260px;">
+<img alt="進捗データ解析画面" decoding="async" height="2778" loading="lazy" src="../assets/screenshots/08_progress_insights.png" style="width: 100%; border-radius: 16px; border: 1px solid var(--border-color);" width="1284"/>
+</div>
+</div>
+</div>
+</section>
+</section></main>
+<footer>
+<div class="container">
+<p>© 2026 Mansi Agarwal. All rights reserved.</p>
+<div class="footer-links">
+<a href="../privacy.html">プライバシーポリシー</a>
+<a href="../contact.html">サポート</a>
+</div>
+</div>
+</footer>
+<script defer="" src="../site-polish.js"></script></body>
 </html>
