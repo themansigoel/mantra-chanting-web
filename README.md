@@ -21,3 +21,7 @@ Official website and marketing portal for **Mantra Chanting: Japa Mala** (iOS & 
 ## Android announcement — 26 October 2026
 
 The shared homepage now announces Android as coming soon (no download link or date). Android will include a Progress banner and occasional completion ads outside active chanting. The privacy page separates planned Android AdMob/UMP/Firebase behavior from Apple-only features. Root app-ads.txt is served by https://themansigoel.github.io/app-ads.txt.
+
+## UX review — 26 October 2026
+
+Replaced the default-blue guide list with three fully linked gold-accented cards, clear reading hierarchy and a separate all-guides action. Aligned the web counter with the site palette and made counting keyboard accessible. Improved navigation wrapping, mobile spacing, legal links and guide-page link colors.

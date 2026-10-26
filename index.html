@@ -89,7 +89,7 @@
     }
   ]
 }</script>
-<meta content="Mantra Chanting - Digital Japa Mala for iPhone &amp; Apple Watch" name="twitter:title"/><link href="site-polish.css" rel="stylesheet"/></head>
+<meta content="Mantra Chanting - Digital Japa Mala for iPhone &amp; Apple Watch" name="twitter:title"/><link href="site-polish.css?v=20261026" rel="stylesheet"/></head>
 <body><a class="studio-skip" href="#main-content">Skip to content</a>
 <!-- Header Navigation -->
 <header class="navbar">
@@ -265,14 +265,14 @@
 </div>
 </section>
 <!-- Interactive Web Japa Mala Micro-Demo -->
-<section id="interactive-demo" style="max-width: 800px; margin: 40px auto; padding: 30px 20px; background: rgba(30, 27, 75, 0.6); border: 1px solid #6366f1; border-radius: 20px; text-align: center; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
+<section id="interactive-demo" class="counter-demo" style="max-width: 800px; margin: 40px auto; padding: 30px 20px; background: rgba(30, 27, 75, 0.6); border: 1px solid #6366f1; border-radius: 20px; text-align: center; font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
 <h2 style="color: #f59e0b; margin-top: 0; font-size: 1.8rem;">📿 Try the Digital Japa Counter Online</h2>
 <p style="color: #cbd5e1; margin-bottom: 20px;">Tap the sacred bead below to count your focus mantra. Experience the serene rhythm before downloading.</p>
-<div id="mala-bead" onclick="countBead()" style="width: 140px; height: 140px; margin: 0 auto; background: radial-gradient(circle, #f59e0b, #b45309); border-radius: 50%; box-shadow: 0 0 30px rgba(245, 158, 11, 0.4); display: flex; flex-direction: column; align-items: center; justify-content: center; cursor: pointer; user-select: none; transition: transform 0.1s;">
-<span id="bead-count" style="font-size: 2.5rem; font-weight: 800; color: #ffffff;">0</span>
-<span style="font-size: 0.75rem; color: #fef3c7; letter-spacing: 1px;">/ 108 BEADS</span>
-</div>
-<div id="mala-milestone" style="margin-top: 15px; font-weight: 600; color: #a7f3d0; min-height: 24px;">Tap to begin your practice</div>
+<button type="button" aria-label="Count one chant" id="mala-bead" onclick="countBead()" style="border: 0; font: inherit; width: 140px; height: 140px; margin: 0 auto; background: radial-gradient(circle, #f59e0b, #b45309); border-radius: 50%; box-shadow: 0 0 30px rgba(245, 158, 11, 0.4); display: flex; flex-direction: column; align-items: center; justify-content: center; cursor: pointer; user-select: none; transition: transform 0.1s;">
+<span id="bead-count" style="font-size: 2.5rem; font-weight: 800; color: #17120a;">0</span>
+<span style="font-size: 0.75rem; color: #241a08; letter-spacing: 1px;">/ 108 BEADS</span>
+</button>
+<div role="status" aria-live="polite" id="mala-milestone" style="margin-top: 15px; font-weight: 600; color: #a7f3d0; min-height: 24px;">Tap to begin your practice</div>
 <div style="margin-top: 25px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap;">
 <div style="text-align: left;">
 <div style="font-size: 0.9rem; color: #94a3b8;">Want authentic wooden bead haptics &amp; standalone Apple Watch sync?</div>
@@ -302,17 +302,15 @@
         }
     }
     </script>
+<section aria-labelledby="japa-guides-title" class="practice-guides" id="guides">
+<div class="guides-heading"><div><p class="studio-eyebrow">A LITTLE GUIDANCE</p><h2 id="japa-guides-title">Make space for a daily practice.</h2></div><a class="guides-browse" href="guides/">Explore all guides <span aria-hidden="true">↗</span></a></div>
+<p class="guides-intro">Begin with the beads. Get to know the words. Find a rhythm that feels like yours.</p>
+<div class="practice-guide-grid">
+<a class="practice-guide" href="guides/how-to-use-japa-mala-counter.html"><span class="guide-category">01 · GETTING STARTED</span><h3>Your first 108 chants</h3><p>A simple guide to the mala, the counting method and beginning again.</p><span class="guide-action">Learn the practice <span aria-hidden="true">↗</span></span></a>
+<a class="practice-guide" href="guides/gayatri-mantra-108-times.html"><span class="guide-category">02 · GAYATRI MANTRA</span><h3>Understand each repetition</h3><p>Explore the words, meaning and tradition behind 108 repetitions.</p><span class="guide-action">Read the guide <span aria-hidden="true">↗</span></span></a>
+<a class="practice-guide" href="guides/maha-mrityunjaya-mantra-benefits.html"><span class="guide-category">03 · MAHA MRITYUNJAYA</span><h3>Bring intention to your words</h3><p>Get familiar with the mantra and make room for a steady daily ritual.</p><span class="guide-action">Explore the mantra <span aria-hidden="true">↗</span></span></a>
+</div></section>
 </main>
-<section aria-labelledby="japa-guides-title" class="container" style="max-width: 1100px; margin: 2rem auto; padding: 2rem; border-radius: 20px; background: rgba(127,127,127,.1);">
-<h2 id="japa-guides-title">Learn the practice behind each chant</h2>
-<p>New to a 108-bead mala or returning to a daily practice? These step-by-step guides explain the counting method and the meaning of common mantras.</p>
-<ul>
-<li><a href="guides/how-to-use-japa-mala-counter.html">How to use a japa mala counter</a></li>
-<li><a href="guides/gayatri-mantra-108-times.html">Gayatri mantra: meaning and 108 repetitions</a></li>
-<li><a href="guides/maha-mrityunjaya-mantra-benefits.html">Maha Mrityunjaya mantra: words and practice</a></li>
-<li><a href="guides/">Browse all japa guides</a></li>
-</ul>
-</section>
 <!-- Footer -->
 <footer>
 <div class="container">
