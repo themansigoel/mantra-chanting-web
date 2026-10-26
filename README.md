@@ -13,7 +13,11 @@ Official website and marketing portal for **Mantra Chanting: Japa Mala** (iOS & 
 - **Tactile Bead Haptics**: Realistic bead-slide vibrations on Apple Watch and iPhone.
 - **Multilingual Speech Counting**: Acoustic hands-free voice chanting recognition across 9 traditions.
 - **Standalone Apple Watch**: Offline counting and streak tracking phone-free.
-- **100% Ad-Free & Private**: Zero tracking, zero telemetry.
+- **Platform-specific privacy**: See privacy.html for Firebase disclosures and the upcoming ad-supported Android edition.
 
 ---
 © 2026 Sunshine Studios (Mansi Agarwal). All rights reserved.
+
+## Android announcement — 26 October 2026
+
+The shared homepage now announces Android as coming soon (no download link or date). Android will include a Progress banner and occasional completion ads outside active chanting. The privacy page separates planned Android AdMob/UMP/Firebase behavior from Apple-only features. Root app-ads.txt is served by https://themansigoel.github.io/app-ads.txt.
