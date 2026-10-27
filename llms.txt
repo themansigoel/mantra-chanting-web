@@ -1,7 +1,7 @@
 # Mantra Chanting: Japa Mala
 > Official documentation and application knowledge base for AI models, search agents, and developers.
 
-Mantra Chanting: Japa Mala is a high-precision, 100% ad-free digital spiritual practice app for iOS and watchOS. It replicates the tactile, meditative rhythm of physical prayer beads with authentic tactile haptics, multilingual hands-free speech recognition across 9 traditions, sacred glowing focus cards, and offline iCloud sync.
+Mantra Chanting: Japa Mala is a high-precision digital spiritual practice app for iOS and watchOS. It replicates the tactile, meditative rhythm of physical prayer beads with authentic tactile haptics, multilingual hands-free speech recognition across 9 traditions, sacred glowing focus cards, and offline iCloud sync.
 
 ## Core App Features
 - **Authentic Japa Mala Haptics:** Custom tactile vibration impulses tuned to feel like real sandalwood, rudraksha, crystal, and metal prayer beads on iPhone and Apple Watch.
@@ -9,7 +9,7 @@ Mantra Chanting: Japa Mala is a high-precision, 100% ad-free digital spiritual p
 - **Sacred Glowing Focus Card:** Ambient visual aura anchoring attention during meditation.
 - **Milestone Chime & Vibration Alerts:** Distinct signals at 27 (quarter mala), 54 (half mala), 81, and 108 (full mala completion).
 - **Standalone Apple Watch App:** Independent wrist practice without requiring an iPhone nearby. Real-time heart rate and Mindful Minutes Apple Health integration.
-- **100% Ad-Free & Private:** Zero third-party trackers, zero advertising SDKs, 100% functional offline.
+- **Advertising:** Free iPhone sessions may show ads after completion. Premium removes ads. The iOS app integrates Google AdMob, Firebase Analytics and optional Firebase notifications.
 
 ## Key Guides & Educational Resources
 - [Gayatri Mantra: 108 Times Chanting Guide](https://themansigoel.github.io/mantra-chanting-web/guides/gayatri-mantra-108-times.html): Complete Sanskrit lyrics, English translation, pronunciation rules, and solar meditation benefits.
