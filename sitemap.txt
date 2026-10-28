@@ -3,3 +3,6 @@ https://themansigoel.github.io/mantra-chanting-web/hi/
 https://themansigoel.github.io/mantra-chanting-web/ja/
 https://themansigoel.github.io/mantra-chanting-web/privacy.html
 https://themansigoel.github.io/mantra-chanting-web/contact.html
+
+https://themansigoel.github.io/mantra-chanting-web/android/
+https://themansigoel.github.io/mantra-chanting-web/ios/
