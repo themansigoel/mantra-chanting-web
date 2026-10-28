@@ -25,3 +25,9 @@ The shared homepage now announces Android as coming soon (no download link or da
 ## UX review — 26 October 2026
 
 Replaced the default-blue guide list with three fully linked gold-accented cards, clear reading hierarchy and a separate all-guides action. Aligned the web counter with the site palette and made counting keyboard accessible. Improved navigation wrapping, mobile spacing, legal links and guide-page link colors.
+
+## Light website and separate editions — 28 October 2026
+
+New ivory/saffron light design on the shared English homepage, dedicated `/android/` and `/ios/` pages, privacy/support and guides. Real Android screenshots copied from the Android repository; no synthetic app UI or public Play download claim. App interfaces remain dark. Android privacy now discloses Firebase Messaging tokens/topics and first-launch permission/default-enabled updates separately from local reminders. Existing localized legacy pages remain available unchanged.
+
+Validation: nine English pages pass local links/assets/anchors, one-H1 and XML sitemap checks. Desktop and 390/320-pixel mobile previews inspected; FAQ interaction and pointer/Enter-key browser counter/reset verified. New remote iPhone free-tier ads/Premium/privacy disclosures from fe73194 preserved. Non-English pages retained from the latest remote commit. No App Store/Play Console changes made.
